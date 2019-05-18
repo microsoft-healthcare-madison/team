@@ -1,6 +1,6 @@
-# README[ jmandel@microsoft.com ] 
+# README: jmandel@microsoft.com
 
-## Why README? 
+## Why a README? 
 
 This doc is a “manager README”: a guide to set expectations for new team members. The aim is to share mindset, style, preferences, and quirks. I’m still new to Microsoft and building a small team in “remote” Madison, WI. Foremost I’ll aim for transparency within the team and reflecting outward (to the community) and inward (to Microsoft). 
 
