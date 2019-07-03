@@ -8,17 +8,7 @@ P0: Prepare connectathon track descriptions including descriptions for Argonaut 
 
 P1 Prepare and publish tutorials for connectathon participants and others to learn about Subscriptions
 
-P1: Document how developers can use our tooling and deploy their own copies (might be intro in each relevant section) 
-
-- Getting the docker image and getting it running 
-
-- Connecting / etc… 
-
- - P1: Client side (use our server with a client you implement) 
-
- - P1: Server side (use our client with a server you implement) 
-
- - (All tutorials to include Running a pre-connectathon webinar)
+P1: Document how developers can use our tooling and deploy their own copies of the core components of our reference implementation (server, client, and test harness) including locally via docker
 
 P2: Blog post in early September about our work and its relevance
 
