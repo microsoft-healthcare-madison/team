@@ -16,9 +16,7 @@ P1: Solicit feedback on our work by including relevant links for ratings/questio
 
 P2: Solicit feedback on our work by creating a survey that at least 50% of connectathon participants re: what worked/didn’t. 
 
-
 P1/2: Prepare and deliver a Webinar covering all the tutorial information 
-
  - (Should record / make available to the public, and tie to blog post) 
  
 
