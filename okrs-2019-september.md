@@ -3,7 +3,7 @@ We're following a planning schedule that mirrors the HL7 workging group meeting 
 in four-month intervals ending in September, January, and May.
 
 ## Objective: Make sure the community is ready for a successful Subscriptions connectathon track 
-
+P0: Ensure that all necessary changes to Subscription and Topic are merged into the main FHIR build before Sunday, August 11 (to make the R5 Connectathon snapshot for tooling).
 P0: Prepare connectathon track descriptions including descriptions for Argonaut scenarios
 
 P1 Prepare and publish tutorials for connectathon participants and others to learn about Subscriptions
