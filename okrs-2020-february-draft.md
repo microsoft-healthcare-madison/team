@@ -6,7 +6,6 @@ schedule -- in four-month intervals ending in September, January, and May.
 to February 2020.)
 
 
-
 ## Objective: Wrap up Argonaut Encounter Subscriptions IG
 
 P0: Finalize canonical Topics for Encounter events
@@ -23,8 +22,6 @@ P2: Prepare a community tutorial showing how to build a well-behaved
     Encoutner Subscriptions client, including error handling (e.g.,
     missed message detection, out-of-order delivery).
 
-
-
 ## Objective: Prepare FHIR R5 Topic-based Subscriptions for ballot
 
 P0: Solicit design review from at least two cloud engineering teams
@@ -40,7 +37,7 @@ P1: Document how developers can use our tooling and deploy their own copies of
 
 P2: Blog post explaining rationale for and technical details of R5 Topic-based Subscriptions
 
-
+P3: Build out tooling for arbitrary (computable) Topic definition / testing.
 
 ## Objective: Wrap up Argonaut PAMA IG
 
@@ -56,9 +53,9 @@ P1: Put SMART Web Messaging onto HL7's standards track with a Project Scope Stat
 
 
 
-## Objective: Establish Argonaut 2020 project for "SMART Subscription Links"
+## Objective: Establish Argonaut 2020 project for "SMART Scheduling Links"
 
-P0: Submit 2020 project proposal for "SMART Subscription Links"
+P0: Submit 2020 project proposal for "SMART Scheduling Links"
 
 P1: Develop a list of supporting organizations including at least three Argonaut participants
 
