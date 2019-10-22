@@ -51,6 +51,14 @@ P1: Prepare a community tutorial with code samples and end-to-end walk-through
 P1: Put SMART Web Messaging onto HL7's standards track with a Project Scope Statement,
     and a "standard for trial use" ballot
 
+P1: Establish a documentation go-to spot for state-of-the world information, IGs, contact
+    info, etc.
+
+P2: Build a markdown matrix showing which EHR vendors support which CDS hooks to be
+    maintained by the community.
+
+P2: Build a markdown matrix showing which qCDSMs support which PLE's guidelines to be
+    maintained by the community.
 
 
 ## Objective: Establish Argonaut 2020 project for "SMART Scheduling Links"
