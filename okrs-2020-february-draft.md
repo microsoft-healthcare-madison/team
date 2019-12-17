@@ -8,7 +8,7 @@ to February 2020.)
 
 ## Objective: Wrap up Argonaut Encounter Subscriptions IG
 
-P0: Finalize canonical Topics for Encounter events
+P0: Finalize canonical SubscriptionTopics for Encounter events
 
 P0: Complete conformance language in the Argonaut Encounter IG
 
@@ -37,7 +37,7 @@ P1: Document how developers can use our tooling and deploy their own copies of
 
 P2: Blog post explaining rationale for and technical details of R5 Topic-based Subscriptions
 
-P3: Build out tooling for arbitrary (computable) Topic definition / testing.
+P3: Build out tooling for arbitrary (computable) SubscriptionTopic definition / testing.
 
 ## Objective: Wrap up Argonaut PAMA IG
 
