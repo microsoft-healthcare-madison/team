@@ -46,7 +46,7 @@ P1: Document how developers can use our tooling and deploy their own copies of
 * Score: 0.4 (Some slideware from DevDays; no published docs)
 
 P2: Blog post explaining rationale for and technical details of R5 Topic-based Subscriptions
-Score: 0.8 (Wrote a Subscriptions blog, focused pre/post state)
+* Score: 0.8 (Wrote a Subscriptions blog, focused pre/post state)
 
 P3: Build out tooling for arbitrary (computable) SubscriptionTopic definition / testing.
 * Score: 0.0
