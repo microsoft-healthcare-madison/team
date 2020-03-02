@@ -10,7 +10,6 @@ to February 2020.)
 P0: Finalize canonical SubscriptionTopics for Encounter events
 * Score: 0.8 (Will still need to keep updated with R5 evolution)
 
-
 P0: Complete conformance language in the Argonaut Encounter IG
 * Score: 0.8 (One more piece of feedback to incorporate; the occasional updates with R5 evolution)
  
@@ -27,6 +26,10 @@ P2: Prepare a community tutorial showing how to build a well-behaved
     Encounter Subscriptions client, including error handling (e.g.,
     missed message detection, out-of-order delivery).
 * Score: 0.5 (Have core content from Lets Build at Dev Days; need narrative structure explaining how to think about / approach error handling, etc.)
+
+Notes:
+* Work on the Argonaut project was derailed by focus on core model redesign.
+* Work on the Reference Implementation has been reduced by untracked projects (e.g., codegen).
 
 ## Objective: Prepare FHIR R5 Topic-based Subscriptions for ballot
 
@@ -50,6 +53,9 @@ P2: Blog post explaining rationale for and technical details of R5 Topic-based S
 
 P3: Build out tooling for arbitrary (computable) SubscriptionTopic definition / testing.
 * Score: 0.0
+
+Notes:
+* Too ambitious on timeline - will likely need the entire R5 timeline to get right.
 
 ## Objective: Wrap up Argonaut PAMA IG
 
