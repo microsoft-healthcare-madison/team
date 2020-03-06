@@ -103,6 +103,6 @@
 
 
 ## Objective: Maintain connections within and across MS teams working on healthcare 
-* P1: Participate as a team in the Microsoft OneWeek hackathon
+* P1: Schedule travel and draft (or glom onto!) a project plan for team particiaption in the Microsoft June OneWeek hackathon
 * P2: Offer a "health standards office hours" or "FHIR workshop" to internal teams, advertising and hosting one session with a broad invite list
 * P2: Host an internal a "wishlist" or brainstorming session to solicit experiences and gaps across internal teams
