@@ -36,7 +36,7 @@
 * P0: 0.8: Establish an open community process to ensure that meeting schedules, meeting notes, and Zulip discussions are discoverable from Argonaut project homepage
 * P0: 0.75 (TBD still are chaining & operations, but *could* omit if needed): Define goals and non-goals for granular permissions, with group-wide consensus
 * P0: 0.6: Draft updates to SMART scope language to satisfy goals, and document these in a draft "SMART v2" IG, starting from the existing SMART IG repository
-* P2: (0.2 -- discustions but not formal review): Conduct design review with at least two cloud technology providers to ensure a path toward real-world implementation
+* P2: (0.2 -- discussions but not formal review): Conduct design review with at least two cloud technology providers to ensure a path toward real-world implementation
 * P2: (0.5 -- got feedback from two vendors, but didn't run one-on-one review sessions): Conduct design review with at least two EHR technology providers to ensure a path toward real-world implementation
 * P3: (0.75 -- core features in SMART app launcher) Build reference implementation. Probably build into an open-source FHIR server (e.g., HAPI or Microsoft FHIR Server), but also see what can be done in a proxy or gateway
 
