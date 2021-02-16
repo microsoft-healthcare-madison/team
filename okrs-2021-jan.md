@@ -145,7 +145,7 @@ We're following a planning schedule that mirrors the HL7 working group meeting s
 
 * P1 Josh in October to solicit topics on #implementers + #social for a series of "Guided walk through the FHIR spec" livestreams 
 
-* P2 Josh by November to select one topic and run a "Guided walk through the FHIR spec livestream 
+* P2 (0.6) Josh by November to select one topic and run a "Guided walk through the FHIR spec" livestream 
 
 * P2 Carl to record a Codelab working session (virtual session walking developers through the first part of the PL / PAMA codelab)? 
 
