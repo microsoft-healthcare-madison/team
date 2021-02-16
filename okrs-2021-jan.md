@@ -4,23 +4,23 @@ We're following a planning schedule that mirrors the HL7 working group meeting s
  
 ## Argonaut Project: SMART v2 
 
-* P0: SMART IG Draft ready for Argonaut Review prior to January Connectathon, suitable for January testing + May ballot.  
+* P0 (.8): SMART IG Draft ready for Argonaut Review prior to January Connectathon, suitable for January testing + May ballot.  
 
-* P1: Reference server and client implementation for v2 IG (including granular scopes and token introspection) merged into SMART App Launcher repo 
+* P1 (.8): Reference server and client implementation for v2 IG (including granular scopes and token introspection) merged into SMART App Launcher repo 
 
-* P2: Conduct 1:1 design reviews with two EHR vendors and two cloud vendors 
+* P2 (0): Conduct 1:1 design reviews with two EHR vendors and two cloud vendors 
 
-* P3: Automated testing tool for EHR implementations (e.g. standalone CLI, or features on top of Inferno) 
+* P3 (0): Automated testing tool for EHR implementations (e.g. standalone CLI, or features on top of Inferno) 
 
  
 
 ## Argonaut Projects: Bulk Data 
 
-* P0: Wrap up Bulk Data 1.5 IG 
+* P0 (1.0): Wrap up Bulk Data 1.5 IG 
 
-* P1: Work with at least two certified EHRs for testing and support 
+* P1 (0.5): Work with at least two certified EHRs for testing and support 
 
-* P2: Ensure the bulk data test suite covers new features 
+* P2 (0.7): Ensure the bulk data test suite covers new features 
  
 
 ## Argonaut Projects: Patient Lists  
@@ -97,13 +97,13 @@ We're following a planning schedule that mirrors the HL7 working group meeting s
 
 ## SMART Health Cards Framework 
 
-* P1: Freeze dependencies and publish a "1.0" implementation guide  
+* P1 (0.7): Freeze dependencies and publish a "1.0" implementation guide  
 
-* P2: Creates a plan with The Commons Project to pilot the IG with at least one US-based lab  
+* P2 (0.7): Creates a plan with The Commons Project to pilot the IG with at least one US-based lab  
 
-* P2: Report feedback from early implementation to the DID SIOP and Sidetree projects in Identity Foundation 
+* P2 (1.0): Report feedback from early implementation to the DID SIOP and Sidetree projects in Identity Foundation 
 
-* P3: Identify gaps with MS Authenticator features and report feedback to internal teams 
+* P3 (0.8): Identify gaps with MS Authenticator features and report feedback to internal teams 
 
  
 
@@ -143,9 +143,9 @@ We're following a planning schedule that mirrors the HL7 working group meeting s
 
 * P1 Gino to Record a "Friday Afternoons" video series on intro topics for FHIR videos. E.g. for specific languages provide an overview of how to connect to a server or issue queries. Focus on the security + data connectivity >> UI. 
 
-* P1 Josh in October to solicit topics on #implementers + #social for a series of "Guided walk through the FHIR spec" livestreams 
+* P1 (1.0): Josh in October to solicit topics on #implementers + #social for a series of "Guided walk through the FHIR spec" livestreams 
 
-* P2 (0.6) Josh by November to select one topic and run a "Guided walk through the FHIR spec" livestream 
+* P2 (0.6): Josh by November to select one topic and run a "Guided walk through the FHIR spec" livestream 
 
 * P2 Carl to record a Codelab working session (virtual session walking developers through the first part of the PL / PAMA codelab)? 
 
