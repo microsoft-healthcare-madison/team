@@ -25,43 +25,43 @@ We're following a planning schedule that mirrors the HL7 working group meeting s
 
 ## Argonaut Projects: Patient Lists  
 
-* P0: Patient Lists IG Draft ready for Argonaut Review prior to January Connectathon, suitable for January testing 
+* P0 (0.3): Patient Lists IG Draft ready for Argonaut Review prior to January Connectathon, suitable for January testing 
 
-* P1: Demo data collection representing full feature set of Patient Lists API  
+* P1 (0.3): Demo data collection representing full feature set of Patient Lists API  
 
    * Represent a "full experience" from a clinician's perspective – point in time snapshot. 
 
    * Synthea data loader released in a separate repo. 
 
-* P1: Demo application exercises full feature set for Patient Lists API.  Demo App / Sandbox enhancements 
+* P1 (0.0): Demo application exercises full feature set for Patient Lists API.  Demo App / Sandbox enhancements 
 
   * App deployment process includes at least one unit and at least one integration test. 
 
   * Developer panel provides data validation and API statistics. 
 
-* P1: Determine scope / level of effort to add Synthea functionality  
+* P1 (0.2) : Determine scope / level of effort to add Synthea functionality  
 
   * that can generate Patient Lists data (populated groups of all types) 
 
   * evaluate improvements to Synthea suitable for fast / direct loading without duplicate providers, etc. 
 
 
-* P2: Codelab complete and published, teaching developers how to implement all data flows for the demo app
+* P2 (0.1): Codelab complete and published, teaching developers how to implement all data flows for the demo app
 
 
 ## Argonaut Projects: SMART Web Messaging 
 
-* P0: All ballot comments are triaged. 
+* P0 (0.6): All ballot comments are triaged. 
 
-* P0: Proposed dispositions for any spec edits are tied to GitHub pull requests. 
+* P0 (0.9): Proposed dispositions for any spec edits are tied to GitHub pull requests. 
 
-* P0: Shepherd proposals through FHIR-I 
+* P0 (0.7): Shepherd proposals through FHIR-I 
 
-* P2: SMART core JS library is augmented to support Web Messaging. 
+* P2 (0.2): SMART core JS library is augmented to support Web Messaging. 
 
-* P3: Standalone test tool demonstrates API support.  
+* P3 (0.0): Standalone test tool demonstrates API support.  
 
-* P3: SMART app launcher supports at least one Web Messaging feature (e.g., app close) 
+* P3 (0.0): SMART app launcher supports at least one Web Messaging feature (e.g., app close) 
 
  
 
