@@ -67,32 +67,37 @@ We're following a planning schedule that mirrors the HL7 working group meeting s
 
 ## Subscriptions in R4 + R5 
 
-* P0: Subscriptions R5 is "ready to ballot at any time" 
+* P0 (0.9): Subscriptions R5 is "ready to ballot at any time" 
 
-   * Apply feedback from September 2020 Connectathon 
+   * (1.0) Apply feedback from September 2020 Connectathon 
 
-   * Complete documentation TODOs on existing areas of the spec including error discovery and recovery 
+   * (1.0) Complete documentation TODOs on existing areas of the spec including error discovery and recovery 
 
-   * Update resources to FMM 2/3 and ensure build passes. 
+   * (0.75) Update resources to FMM 2/3 and ensure build passes. 
 
-* P1: Define an approach to requesting Graphs when creating a FHIR Subscription 
+* P1 (0.3): Define an approach to requesting Graphs when creating a FHIR Subscription 
 
-* P1: Host a deep-dive discussion with (at least) Carequality and two EHR vendors determine whether a new channel type is required to meet CMS encounter notification requirements 
+* P1 (0.0): Host a deep-dive discussion with (at least) Carequality and two EHR vendors determine whether a new channel type is required to meet CMS encounter notification requirements 
 
-* P1: Subscriptions "R4 Back-port IG" ballots in the January ballot cycle (ballot opens Dec 11) 
+* P1 (1.0): Subscriptions "R4 Back-port IG" ballots in the January ballot cycle (ballot opens Dec 11) 
 
-* P3: Add support for 'error' scenarios to subscriptions.argo.run system. 
+* P3 (0.0): Add support for 'error' scenarios to subscriptions.argo.run system. 
 
-  * Missing event / out-of-order delivery. 
+  * (0.0) Missing event / out-of-order delivery. 
 
-  * Sending error state to client. 
+  * (0.0) Sending error state to client. 
 
-* P1: Maintain the Argonaut Encounters IG with changes from the specifications. 
+* P1 (1.0): Maintain the Argonaut Encounters IG with changes from the specifications. 
 
-* P0: Presentation, demos, and Let's Build content ready for DevDays 
+* P0 (1.0): Presentation, demos, and Let's Build content ready for DevDays 
 
-   * P3: Consider Push Notification routing for inclusion in DevDays demo 
+   * P3 (1.0): Consider Push Notification routing for inclusion in DevDays demo 
 
+### Not previously captured
+
+* P1 (1.0): Update reference system to support backport IG
+
+* P1 (1.0): Update reference system to support websocket changes for testing (prior to Connectathon)
  
 
 ## SMART Health Cards Framework 
@@ -109,24 +114,27 @@ We're following a planning schedule that mirrors the HL7 working group meeting s
 
 ## Expand the capabilities of fhir-codegen 
 
-* P1 Define parsing and serialization benchmarks to compare existing approaches, including latency to first pass + warmed-up throughput. 
+* P1 (0.3): Define parsing and serialization benchmarks to compare existing approaches, including latency to first pass + warmed-up throughput. 
 
-* P1 Improve time to first pass by 3x and improve throughput by __x without breaking API compatibility by leveraging System.Text.Json (vs NewtonSoft) for serialization and parsing.  
+* P1 (0.5): Improve time to first pass by 3x and improve throughput by __x without breaking API compatibility by leveraging System.Text.Json (vs NewtonSoft) for serialization and parsing.  
 
-* P2 Codegen library is published in Nuget  
+* P2 (0.0): Codegen library is published in Nuget  
 
-* P3 Add support for parsing profiles. 
+* P3 (0.5): Add support for parsing profiles. 
 
-* P3 Build OpenAPI docs compliant with 'official' FHIR build. 
+* P3 (0.1): Build OpenAPI docs compliant with 'official' FHIR build. 
 
-    * Add to 'generated' for compatibility checking. 
+    * (0.0): Add to 'generated' for compatibility checking. 
 
-    * Talk with MS PowerApps Custom Connector team 
+    * (0.0): Talk with MS PowerApps Custom Connector team 
 
-* P4 Add API server and UI. 
+* P4 (0.0): Add API server and UI. 
 
-* P4 Add support for loading from a local build (output) folder (depends on changes to FHIR core infrastructure in the R4b refactor) 
+* P4 (1.0): Add support for loading from a local build (output) folder (depends on changes to FHIR core infrastructure in the R4b refactor)
 
+### Not previously captured
+
+* P0 (1.0): Support Firely with updates and fixes as needed.
  
 
 ## Internal MS team connections 
@@ -137,11 +145,11 @@ We're following a planning schedule that mirrors the HL7 working group meeting s
 
 * P3: Decide on a feature to prototype in MS FHIR Server 
 
- 
+
 
 ## External community development 
 
-* P1 Gino to Record a "Friday Afternoons" video series on intro topics for FHIR videos. E.g. for specific languages provide an overview of how to connect to a server or issue queries. Focus on the security + data connectivity >> UI. 
+* P1 (0.8): Gino to Record a "Friday Afternoons" video series on intro topics for FHIR videos. E.g. for specific languages provide an overview of how to connect to a server or issue queries. Focus on the security + data connectivity >> UI. 
 
 * P1 (1.0): Josh in October to solicit topics on #implementers + #social for a series of "Guided walk through the FHIR spec" livestreams 
 
@@ -155,7 +163,7 @@ We're following a planning schedule that mirrors the HL7 working group meeting s
 
 ### FHIR Tooling 
 
-* SMART proxy 'package' 
+* (0.1): SMART proxy 'package' 
 
   * Server deployment to act as web-proxy. 
 
