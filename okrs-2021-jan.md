@@ -116,7 +116,7 @@ We're following a planning schedule that mirrors the HL7 working group meeting s
 
 * P1 (0.3): Define parsing and serialization benchmarks to compare existing approaches, including latency to first pass + warmed-up throughput. 
 
-* P1 (0.5): Improve time to first pass by 3x and improve throughput by __x without breaking API compatibility by leveraging System.Text.Json (vs NewtonSoft) for serialization and parsing.  
+* P1 (0.75): Improve time to first pass by 3x and improve throughput by __x without breaking API compatibility by leveraging System.Text.Json (vs NewtonSoft) for serialization and parsing.  
 
 * P2 (0.0): Codegen library is published in Nuget  
 
