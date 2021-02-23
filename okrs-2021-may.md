@@ -29,9 +29,8 @@
 
 #### R5
 * P0: Apply all approved Subscription Jira tickets (up through issue number 29315)
-* P?: Update Subscription resources to FMM2+ (in time for For Comment ballot)
-  *TODO (check whether the May FMM level is an upper bound for eventual publication)
 * P1: Identify a track lead for May Connectathon (need to determine what this looks like)
+* P2: Update Subscription resources to FMM2+ (hard deadline is July 2021)
 
 ## Standards Acceleration / Rapid IG Development
 ### Argonaut
