@@ -1,7 +1,7 @@
 # Team
 Docs about our team, working on Healthcare Standards and Interoperability.
 
-Our mission is to enable / improve digital healtcare. We are a public-facing team, focused on standards and interoperability.  We contribute to specifications (e.g., [FHIR](http://hl7.org/fhir)) and Open Source Software (below).
+Our mission is to enable / improve digital healthcare. We are a public-facing team, focused on standards and interoperability.  We contribute to specifications (e.g., [FHIR](http://hl7.org/fhir)) and Open Source Software (below).
 
 # Current Specification Work / Contributions
 
