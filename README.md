@@ -1,7 +1,7 @@
 # Team
-Docs about our team, working on Healtcare Standards and Interoperability.
+Docs about our team, working on Healthcare Standards and Interoperability.
 
-Our mission is to enable / improve digital healtcare. We are a public-facing team, focused on standards and interoperability.  We contribute to specifications (e.g., [FHIR](http://hl7.org/fhir)) and Open Source Software (below).
+Our mission is to enable / improve digital healthcare. We are a public-facing team, focused on standards and interoperability.  We contribute to specifications (e.g., [FHIR](http://hl7.org/fhir)) and Open Source Software (below).
 
 # Current Specification Work / Contributions
 
@@ -19,6 +19,7 @@ Our mission is to enable / improve digital healtcare. We are a public-facing tea
 * [FHIR JS](https://github.com/smart-on-fhir/client-js)
 * [SMART App Launcher](https://github.com/smart-on-fhir/smart-launcher)
 * [SMART Health Cards Dev Tools](https://github.com/smart-on-fhir/health-cards-dev-tools)
+* [FHIR WebApi Facade](https://github.com/brianpos/fhir-net-web-api)
 * Subscriptions Reference Implementations:
   * [Proxy Server](https://github.com/microsoft-healthcare-madison/argonaut-subscription-server-proxy)
   * [Client UI](https://github.com/microsoft-healthcare-madison/argonaut-subscription-client-ui)
@@ -39,3 +40,5 @@ Our mission is to enable / improve digital healtcare. We are a public-facing tea
   * [FHIR in C#](https://www.youtube.com/playlist?list=PLsR-zcO--dypP688ilpL3rAiYjWnZbubA)
   * [FHIR Test Servers](https://www.youtube.com/playlist?list=PLsR-zcO--dyqQv87yZ2AXb5cJG8ubCDeJ)
   * [Connectathon 28 - FHIR Subscriptions](https://www.youtube.com/playlist?list=PLsR-zcO--dyqViyu-cb70JExLw7HJJf06)
+* Brian Postlethwaite's [Blog](https://brianpos.com)
+  * [Creating you own FHIR Server with Microsoft .net](https://brianpos.com/2022/04/19/create-your-own-net-fhir-server-fast/)
