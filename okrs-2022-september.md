@@ -2,7 +2,7 @@
 
 ## FHIR-based software uses topic-based subscriptions to avoid polling
 * P0-GC: R4B Backport IG is published
-    * P0-GC: (1.0) Publication request approved by FHIR-I, FMG
+    * P0-GC: Publication request approved by FHIR-I, FMG, and TSC
     * P0-GC: Specification is Published
 * P1-GC: Have connectathon track available, either as a standalone track or part of an Argo-wide track (?)
 * P3-GC: Subscriptions sandbox supports more SubscriptionTopics (e.g., arbitrary fhirpath-based topics, or a "button push event" topic)
