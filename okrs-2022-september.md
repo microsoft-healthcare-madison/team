@@ -1,15 +1,15 @@
 # OKRs for June-September 2022
 
 ## FHIR-based software uses topic-based subscriptions to avoid polling
-* P0-GC: R4B Backport IG is published
-    * P0-GC: Publication request approved by FHIR-I, FMG, and TSC
-    * P0-GC: Specification is Published
-* P1-GC: Have connectathon track available, either as a standalone track or part of an Argo-wide track (?)
-* P3-GC: Subscriptions sandbox supports more SubscriptionTopics (e.g., arbitrary fhirpath-based topics, or a "button push event" topic)
-* P0-GC/BP: RI is up to date with R4B+IG and R5
-  * P0-GC: With final R4B/IG version
-* P2-GC: Track usage for Subscription sandbox (counts by R4B vs R5, standard channel types or "any custom channel")
-* P2-GC/BP: Develop SubscriptionTopic content from at least one of the following:
+* P0-GC: (1.0) R4B Backport IG is published
+    * P0-GC: (1.0) Publication request approved by FHIR-I, FMG, and TSC
+    * P0-GC: (1.0) Specification is Published
+* P1-GC: (1.0) Have connectathon track available, either as a standalone track or part of an Argo-wide track (?)
+* P3-GC: (0.0) Subscriptions sandbox supports more SubscriptionTopics (e.g., arbitrary fhirpath-based topics, or a "button push event" topic)
+* P0-GC/BP: (0.75) RI is up to date with R4B+IG and R5
+  * P0-GC: (1.0) With final R4B/IG version
+* P2-GC: (0.0) Track usage for Subscription sandbox (counts by R4B vs R5, standard channel types or "any custom channel")
+* P2-GC/BP: (0.0) Develop SubscriptionTopic content from at least one of the following:
   * Public health
       * MedMorph for public
       * National Center for Health Statistics (NCHS) Reporting
@@ -17,10 +17,10 @@
 * P2-BP: Create a cloud messaging channel type (e.g., azure event grid)
   * Draft channel def, docs for compatibility with existing notifications
   * Prototype from an existing FHIR server
-* P2-GC: Follow up with at least 2 potential implementers (e.g., cloud vendors, EHRs)
+* P2-GC: (0.5) Follow up with at least 2 potential implementers (e.g., cloud vendors, EHRs)
 
 ## Developers, students, and others learn FHIR through openly published educational content
-* P0-GC: Publish at least 2 videos the usage of the new typescript SDK
+* P0-GC: (0.0) Publish at least 2 videos the usage of the new typescript SDK
 * P0-GC/BP: Publish at least 2 videos about developing in FHIR using C#
 * P0-BP: Publish educational content on writing FHIRPath and tooling available
 * P2-BP: Publish educational content on integrating FHIR Servers and FHIR Terminology Services
@@ -51,7 +51,7 @@
 
 ### Changes between versions of specification publications are easy to discover
 * Technical implementers can access tooling to compare the contents of package versions
-    * P0-GC: Implement software that finds and categorizes changes in all relevant artifacts.
+    * P0-GC: (0.5?) Implement software that finds and categorizes changes in all relevant artifacts.
     * P4-GC/BP: Packaged deployment of tooling
 * Non-technical implementers can access tooling to compare the contents of package versions
     * P2-GC/BP: Hosted solution for common package+version combinations
@@ -59,26 +59,26 @@
 
 ### Typescript/JS (DT and SDK)
 * Developers can use tooling quickly after specification packages are published
-    * P0-GC: Expand build tooling to reduce maintenance burden (e.g., daily automatic checks?).
-    * P0-GC: Publish contents for all 'common' versions of FHIR.
-    * P2-GC: Choose a strategy for publication of pre-prelease and CI builds of packages.
+    * P0-GC: (0.2) Expand build tooling to reduce maintenance burden (e.g., daily automatic checks?).
+    * P0-GC: (1.0) Publish contents for all 'common' versions of FHIR.
+    * P2-GC: (0.2?) Choose a strategy for publication of pre-prelease and CI builds of packages.
 * Improved quality and correctness of runtime SDK
-    * P1-GC: Support invariant testing in the core specification
-    * P5-GC: Implement custom JSON serializer/parser
+    * P1-GC: (0.5) Support invariant testing in the core specification
+    * P5-GC: (0.0) Implement custom JSON serializer/parser
 * Expanded scope of 'core' SDK functionality
-    * P1-GC: Determine path for 'expected' functionality (develop or build integrations) and implement at least 2 of:
+    * P1-GC: (0.0) Determine path for 'expected' functionality (develop or build integrations) and implement at least 2 of:
         * P1: FHIRPath
         * P1: SMART App Launch
         * P1: HTTP Client (e.g., fetch, query)
         * P5: XML Support
 * Simplify usage of Implementation Guides for SDK developers
-    * P3-GC: Create tooling for IG-based NPM packages
+    * P3-GC: (0.2) Create tooling for IG-based NPM packages
 * SDK has a low barrier to entry
-    * P0-GC: Create documentation site for SDK / API
+    * P0-GC: (0.0) Create documentation site for SDK / API
 * Build a community around SDK use
-    * P1-GC: Determine 'primary' feedback mechanism
-    * P3-GC: Build and publish roadmap
-    * P4-GC: Develop 'feedback' form and solicit responses from users and non-users in the JS/TS space
+    * P1-GC: (0.0) Determine 'primary' feedback mechanism
+    * P3-GC: (0.0) Build and publish roadmap
+    * P4-GC: (0.0) Develop 'feedback' form and solicit responses from users and non-users in the JS/TS space
 
 ### .NET (Firely) SDK
 * Expanded scope of 'core' SDK functionality
@@ -91,8 +91,8 @@
 ## The FHIR specs are clear, concise, correct, and new-user friendly
 
 ### Important and high-traffic areas of the FHIR Core spec receive special attention
-* P0-GC: Search Page rewrite is ready for QA
-* P0-GC: QA full FHIR Specification going into September R5 ballot
+* P0-GC: (1.0) Search Page rewrite is ready for QA
+* P0-GC: (1.0) QA full FHIR Specification going into September R5 ballot
 * P0-BP/GC: Assisting in applying the backlog of approved changes to the core FHIR R5 specification
 * P1-GC/BP: Search Page rewrite is QA'd for ballot
 * P2-all: Review tickets submitted by our team and apply or submit PRs to apply the resolutions
