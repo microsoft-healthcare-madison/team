@@ -122,3 +122,7 @@
   * 30+ participants
   * 3+ teams
 * P1-JM/GC/BP (1.0 -- two sessions including Argonaut review): coordinate cross-team show-and-tell or Q&A on "hot topics"
+
+---
+
+Also spent time on: team hack week, OpenAI integration examples
