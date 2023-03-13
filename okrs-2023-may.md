@@ -1,4 +1,4 @@
-## Argonaut Assessmentsn project offers clear guidance for SDOH
+## Argonaut Assessments project offers clear guidance for SDOH
 
 * P0-BP Example content covering
     * External form to be "ingested" into an EHR for ...
@@ -111,7 +111,7 @@ Placeholder(drop in OKRs from Pool Party Gdoc)
 * P0-BP: fhirpath.js supports R5 models
 * P0-BP: Dotnet Facade Project supporting R5
 
-## FHIR community continually improves our processess
+## FHIR community continually improves our processes
 
 * P1-BP/JM: Start a conversation about preventing accumulation of backlog between publications
 * P1-BP/JM Propose a short time span and narrow quality focus for FHIR R6 (socialize this with FMG)
