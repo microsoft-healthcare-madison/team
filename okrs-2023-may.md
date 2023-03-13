@@ -45,7 +45,7 @@ Develop and deploy a demo environment with a facade over PACS that supports imag
 * P1-JM Deploy the facade over PACS on a cloud platform that is world-accessible
 * P1-JM Integrate deployed facade with SMART App Launcher
 * P1-JM Develop a "basic mechanics" demonstration app that can run against SMART App Launcher
-* P4-JM Devel a more playful and open-ended demonstration app like "make a 3D print of my brain"
+* P4-JM Develop a more playful and open-ended demonstration app like "make a 3D print of my brain"
 * (After May) Collect feedback from at least five end users who use the demo environment
 
 ### Community, Education and Dissemination
@@ -77,26 +77,26 @@ Evaluate the spec with components running in a provider’s staging environment
 ## SMART Health Insurance Cards
 Placeholder(drop in OKRs from Pool Party Gdoc)
 
-## Topic-based subscriptions are testable (GC)
+## Topic-based subscriptions are testable
 
-* P0: Sandbox is deployed that supports at least one of R4, R4B, R5
-* P0: Sandbox supports arbitrary fhirpath-based topics
+* P0-GC: Sandbox is deployed that supports at least one of R4, R4B, R5
+* P0-GC: Sandbox supports arbitrary fhirpath-based topics
   * UI supports SubscriptionTopic.eventTrigger via a "trigger this event" button 
   * Anyone can POST a SubscriptionTopic and subscribe to it
   * Any fhirpath expression over current/previous works
   * Any query expression will work
-* P1: Sandbox supports basic filtering of subscription events
+* P1-GC: Sandbox supports basic filtering of subscription events
   * Any equality filter works
-* P1: Sandbox is deployed that supports all of R4, R4B, R5
+* P1-GC: Sandbox is deployed that supports all of R4, R4B, R5
     * Review of Firely's v5 SDK and multiversion/base versionless support?
-* P2: Sandbox supports advanced filtering of subscription events
+* P2-GC: Sandbox supports advanced filtering of subscription events
   * Any filter for any search parameter (with simple fhirpath expression) works
   * remove dependency on external fhir-server
 * P2-GC/BP: Subscriptions sandbox integrates with FhirPathLab
     * for subscription topic editing
     * subscription topic debugging
-* P5: Sandbox supports multi-tenancy to isolate users
-* P5: Sandbox supports IG loading for search parameters
+* P5-GC: Sandbox supports multi-tenancy to isolate users
+* P5-GC: Sandbox supports IG loading for search parameters
   * new SearchParameters can be installed via POST 
   
 ## FHIR R5 is published and available for community use
