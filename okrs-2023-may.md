@@ -1,5 +1,4 @@
 ## Argonaut Assessments project offers clear guidance for SDOH
-
 * P0-BP Example content covering
     * External form to be "ingested" into an EHR for ...
     * "PRAPARE Prime" (i.e., locally modified PRAPARE hide fields, add some extras) --> FHIR Questionnaire
@@ -11,11 +10,11 @@
         * Include examples of local codes for the "invented" questions
     * Conditions derived from this assessment (e.g., food insecurity)
         * Following current US Core spec's requirements / Must-Supports
-* P1 Project includes the Assessment *recipient* perspective, by use case
+* P1-BP Project includes the Assessment *recipient* perspective, by use case
     * Clinical reporting / measurement tools
     * Jurisdictional health departments
     * Clinical research?
-* P1 US Core provides clear guidance and a diagram distinguishing
+* P1-BP US Core provides clear guidance and a diagram distinguishing
     * data collection (e.g., recorded as Observations)
     * problems actively tracked (e.g., Conditions)
 
@@ -49,7 +48,6 @@ Develop and deploy a demo environment with a facade over PACS that supports imag
 * (After May) Collect feedback from at least five end users who use the demo environment
 
 ### Community, Education and Dissemination
-
 Educate and disseminate the imaging specs and best practices to potential users and developers through libraries, tools, or examples
 
 * P0-JM Quick blurb outlining imaging project, inviting participation, including telecon details
@@ -65,9 +63,7 @@ Educate and disseminate the imaging specs and best practices to potential users 
 * P2-JM Publish a video showing how to use the library in a demo app
 * (After May) Host a Birds of a Feather session at DevDays for June
 
-
 ### Evaluation
-
 Evaluate the spec with components running in a provider’s staging environment 
 
 * P2-JM Identify and recruit at least one provider organization that is willing to participate in the evaluation
@@ -78,7 +74,6 @@ Evaluate the spec with components running in a provider’s staging environment
 Placeholder(drop in OKRs from Pool Party Gdoc)
 
 ## Topic-based subscriptions are testable
-
 * P0-GC: Sandbox is deployed that supports at least one of R4, R4B, R5
 * P0-GC: Sandbox supports arbitrary fhirpath-based topics
   * UI supports SubscriptionTopic.eventTrigger via a "trigger this event" button 
@@ -97,22 +92,29 @@ Placeholder(drop in OKRs from Pool Party Gdoc)
     * subscription topic debugging
 * P5-GC: Sandbox supports multi-tenancy to isolate users
 * P5-GC: Sandbox supports IG loading for search parameters
-  * new SearchParameters can be installed via POST 
+  * new SearchParameters can be installed via POST
+* P5-BP: Partial Subscriptions support POC inside Facade project (including write-up how this fits into the facade model for others to build on)
   
 ## FHIR R5 is published and available for community use
-* P1 FHIR QA issues are applied and publication is out
-* BP: Short video on ____________
+* P1-BP/GC/JM FHIR QA issues are applied and publication is out
+* P2-BP: Short video on SDC Data Extraction (Argonaut Assessments)
 * P2-GC: Host an 'R5 Changes' session with internal folks
 
 ## FHIR Community has access to high quality open source libraries
 * P0-BP/GC: Support Firely in v5 SDK publication
-* P1-BP: FHIR Net API supports Firely v5 SDK 
+* P1-BP: Dotnet FHIR Facade Project supports Firely v5 SDK (FHIR R4B)
+* P0-BP: Dotnet FHIR Facade Project supporting FHIR R5
 * P0-GC: @types/fhir is updated with R5 models
 * P0-BP: fhirpath.js supports R5 models
-* P0-BP: Dotnet Facade Project supporting R5
+* P0-BP: Fhirpath Lab support R5
+* P2-BP: Review/refine Firely SDK Serialization hooks to better handle invalid content and reporting
+  * invalid value for enumeration to be handled by ExceptionHandler (when not permissive parsing)
+  * Decimal value parsing: Value was either too large or too small for a Decimal
+  * FhirXmlNode and FhirJsonNode use the ExceptionHandler settings object for fine grained control
+  * location should be able to read from a property, not embedded in the message to ease construction of custom error outcome messages
+* P5-BP: Research Fhirpath Lab support Kotlin based android fhirpath engine
 
 ## FHIR community continually improves our processes
-
 * P1-BP/JM: Start a conversation about preventing accumulation of backlog between publications
 * P1-BP/JM Propose a short time span and narrow quality focus for FHIR R6 (socialize this with FMG)
 * P4-GC/?: Evaluate suitability of an existing open-source NPM registry server for FHIR's needs
@@ -125,3 +127,8 @@ Placeholder(drop in OKRs from Pool Party Gdoc)
 * P4-GC: Finalize "project scope" section of IG
 * P4-GC: Clean up diagrams and section references
 * P4-GC: Clarify what implementation choices are required vs allowed
+
+## FHIR SMART Launch and SDC is adopted worldwide
+* P0-BP Participate in the HL7 Australia FHIR Connectathon on localizing SMART App Launch and 
+disseminate the recent updates and future changes coming to SMART, and also how SDC can be
+leveraged in this environment - retrieving context parameters
