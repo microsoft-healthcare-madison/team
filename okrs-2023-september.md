@@ -182,5 +182,8 @@
 * SQL on FHIR -- reference implementation, tests, example
 * IPS Prepopulation examples incluing SHLink
 * Work with CSIRO renderer for Questionnaires
+* FHIRPath Lab "Save to Library"
 * `fhir-candle` infrastructure, tooling for IG-based reference implementations (CDEX, PAS)
 * Publication support for Patient Corrections IG
+* Refactor Patient Access Brands, and bring into scope for SMART IG
+* Design for notified pull within FHIR Subscriptions
