@@ -16,7 +16,7 @@
     * P0 By default, all major canonical resources are loaded
     * P5 Some kind of filter to say which artifacts should be loaded?
   * P0 Documentation and introduction video explain usage
-  * P0 Published as dotnet tool, invokable with `dotnet tool install ...`
+  * P0 Published as dotnet tool, invocable with `dotnet tool install ...`
   * P3 Tool can generate a report to verify content in server/package
   * Note: example usage of System.CommandLine package in [fhir-candle](https://github.com/GinoCanessa/fhir-candle/blob/main/src/fhir-candle/Program.cs)
 
@@ -24,7 +24,7 @@
   * Goal: IG-based helper packages work alongside Firely .NET SDK (`Hl7.Fhir.R5` .NET package)
   * Prior work: [sdc-helpers](https://github.com/brianpos/fhir-sdc-helpers), [CS-Profiling](https://github.com/GinoCanessa/FHIR-CS-Profiling-Basic/tree/main/src)
   * Decide what the package contents should look like
-    * P0: (1.0) Define namespaces to use within pacakges and for artifacts
+    * P0: (1.0) Define namespaces to use within packages and for artifacts
     * P0: (1.0) Define Level 0 functionality for constants (e.g., extension URLs)
     * P1: (0.3) Define Level 1 functionality for getters/setters to wrap extensions (e.g., patient.UsCoreRace)
     * P2: (0.0) Define non-terminology validation against profile
@@ -32,7 +32,7 @@
     * `dotnet add package Hl7.Fhir.Uv.Sdc_3_0_0`
     * `dotnet add package Hl7.Fhir.Us.Core.6.0.0`
   * Support generation with codegen
-    * P1: (0.2) Generate namespaces to use within pacakges and for artifacts
+    * P1: (0.2) Generate namespaces to use within packages and for artifacts
     * P1: (0.2) Generate Level 0 functionality for constants (e.g., extension URLs)
     * P2: (0.2) Generate Level 1 functionality for getters/setters to wrap extensions (e.g., patient.UsCoreRace)
     * P3: (0.0) Generate non-terminology validation against profile
@@ -67,7 +67,7 @@
     * P2: (0.7 discussed; no decision yet) Discuss with Firely for inclusion in the SDK
     * (Extra: supported validation of fhirpath in UploadFIG, validation of IG content pre-publication)
     * P5: (0.7) POC inclusion in Facade/Microsoft FHIR Server
-    * P5: (0.0) Support scanning Quesitonnaire/SDC linkIds in expressions
+    * P5: (0.0) Support scanning Questionnaire/SDC linkIds in expressions
 
 ## FHIR Community has access to high-quality demo environments
 
@@ -111,7 +111,7 @@
 * P5-BP: (0.5 -- discussed; they plan to implement) Followup with Health Samurai and MayJuun on integrating their fhirpath engines
 
 ## FHIR community continually improves our specifications and our processes
-* P1: (0.3) Schedule a session to discuss quality plan for "path to R6". Brief retrospetive:
+* P1: (0.3) Schedule a session to discuss quality plan for "path to R6". Brief retrospective:
     * Unmanageable backlog of unapplied changes
     * Double-application of changes from R5 + R4B
     * Late-breaking changes
@@ -180,7 +180,7 @@
 ## Extra things we worked on
 
 * SQL on FHIR -- reference implementation, tests, example
-* IPS Prepopulation examples incluing SHLink
+* IPS Prepopulation examples including SHLink
 * Work with CSIRO renderer for Questionnaires
 * FHIRPath Lab "Save to Library"
 * `fhir-candle` infrastructure, tooling for IG-based reference implementations (CDEX, PAS)
