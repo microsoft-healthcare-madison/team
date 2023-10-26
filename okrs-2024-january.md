@@ -80,9 +80,9 @@
         * P0 fhirpath based
         * P2 StructureMap based
 * P1 A standalone IPS pre-pop demonstration shows how to use SDC pre-population
-    - published as seperate repo
+    - published as separate repo
     - supports swappable renderers (lforms/csiro)
-        - Responsibility of a renderer is paintaining the form and managing interactions
+        - Responsibility of a renderer is maintaining the form and managing interactions
         - Renderer essentially uses:
             - `Renderer.render(domElement, questionnaire, [questionnaireResponse])` - can be partial or complete
             - `Renderer.retrieveCurrentStatus() => QR`
@@ -121,7 +121,7 @@
         * Source server supports `$crmi.package`
         * Source server has `Questionnaire/example|2.0.0`, a new Questionnaire, which in turn depends on ... ValueSets and other Questionnaires (via `import-questionnaire` extensions)
         * User calls `$crmi.package( Questionnaire/example|2.0.0)` to produce an importable bundle
-        * UploadFIG supports the uploading of a "pacakge" prepared by the `$crmi.package` operation
+        * UploadFIG supports the uploading of a "package" prepared by the `$crmi.package` operation
     * As a reference implementation to test the IG
     * Key areas to implement
         * create package https://build.fhir.org/ig/HL7/crmi-ig/OperationDefinition-crmi-package.html
@@ -137,3 +137,55 @@
     
 * P1 Prepare `withVariable` proposal to add to fhirpath for consideration by HL7
     https://dev.fhirpath-lab.com/FhirPath?libaryId=7775d5cf3df540a38b34e83b27f8f284
+
+
+## Open-source tooling makes FHIR easy to use (GC)
+
+* P1: FHIR cache management tool is published with binaries
+* P1: codegen is published with binaries
+* P0: Complete a pass of FHIR Interface support from `fhir-codegen`
+    * Background: Firely hand-maintains `IVersionableConformanceResource` interface by hand
+    * P0: Expose .NET interfaces automatically through codegen, corresponding to FHIR's
+        *  `CanonicalResource` 
+        *  `MetadataResource` (sub-interface of `CanonicalResource`)
+    * For later: Expose .NET interfaces for FHIR's patterns (Request, Event, Definition)
+* P4: Improve the multi-version story of code-gen
+    * Caller requests an export specifying multiple FHIR versions
+    * Propose / sketch codgen interface with access to cross-version details, which can be used to determine and output things like diffs, since/not-mapped annotations
+* P5: PoC NPM facade over CI Builds
+
+## Support projects with Reference Implementations (GC)
+
+* P0: fhir-candle supports SMART authorization
+* P1: RI for vitals-write for Connectathon (Nov 15)
+* P2: Subscription RI include client-focused page
+
+## FHIR Subscriptions meet use case needs and are implementable (GC)
+
+### Add required features to cover TA Notified Pull use case
+* P0: Design mechanism for sending authorization information with subscription notifications
+* P0: Add support for sending authorization information with subscription notifications
+  * P0: Backport for FHIR R4/R4B
+  * P3: FHIR R5
+  * P1: FHIR R6
+* P0: Design mechanism for sending 'pull' (query/request) information with notifications
+  * P0: Backport for FHIR R4/R4B
+  * P3: FHIR R5
+  * P1: FHIR R6
+
+## Improve and maintain FHIR Specifications
+
+### Subscriptions Framework
+* P0: Apply all outstanding TC tickets to backport IG
+* P0: Add known 'quality of life' requests
+* P0: Ballot Subscriptions backport IG in January cycle
+* P2: Ballot (for comment) FHIR R6 changes in January cycle
+* P3: Determine path for maintaining feature parity in FHIR R5
+
+### Prepare FHIR R6 content for comment ballot
+* P0: Apply all search page tickets approved on or before November 27
+* P0: Expand examples for 'range' searches
+* P0: Apply all http page tickets approved on or before November 27
+* P0: Ensure new 'delete' functionality is documented
+  * P0: Reach out to at least 4 implementers to review draft content before content freeze (December 4)
+
