@@ -139,26 +139,59 @@
     https://dev.fhirpath-lab.com/FhirPath?libaryId=7775d5cf3df540a38b34e83b27f8f284
 
 
+
 ## Open-source tooling makes FHIR easy to use (GC)
 
-* P1: FHIR cache management tool is published with binaries
-* P1: codegen is published with binaries
-* P0: Complete a pass of FHIR Interface support from `fhir-codegen`
-    * Background: Firely hand-maintains `IVersionableConformanceResource` interface by hand
-    * P0: Expose .NET interfaces automatically through codegen, corresponding to FHIR's
-        *  `CanonicalResource` 
-        *  `MetadataResource` (sub-interface of `CanonicalResource`)
+* P1: Publish a package resolution and local FHIR cache management tool
+  * P1: .Net Library is available in NuGet
+  * P1: .Net tool is available in NuGet
+  * P6: Investigate the MS policies around publishing AOT compiled native binaries
+  * P5: Create a PoC NPM facade that indexes the contents of CI Builds (core and IG)
+* P1: Publish `fhir-codegen`
+  * P1: .Net Library is available in NuGet
+  * P1: .Net tool is available in NuGet
+* P0: Update the `fhir-codegen` Firely language to output FHIR Interfaces
+    * Background: Firely [hand-maintains the `IVersionableConformanceResource` interface](https://github.com/FirelyTeam/firely-net-sdk/blob/71269dfa12511b6c8372d8e540281ed5cd06014f/src/Hl7.Fhir.Base/Model/IConformanceResource.cs#L56)
+
+* P0: Create .Net interfaces corresponding to FHIR's
+    * `CanonicalResource` 
+    * `MetadataResource` (sub-interface of `CanonicalResource`)
+    * P0: Add partial class definitions to resource model classes that implement the interfaces for each version of FHIR
+        * Background: Firely [hand-maintains implementations of the `IVersionableConformanceResource` interface](https://github.com/FirelyTeam/firely-net-sdk/blob/main/src/Hl7.Fhir.R4/Model/IConformanceResource.cs)
+        * Add stub properties for elements that do not exist (i.e., getter returns null, setter throws exception).
     * For later: Expose .NET interfaces for FHIR's patterns (Request, Event, Definition)
-* P4: Improve the multi-version story of code-gen
-    * Caller requests an export specifying multiple FHIR versions
-    * Propose / sketch codgen interface with access to cross-version details, which can be used to determine and output things like diffs, since/not-mapped annotations
-* P5: PoC NPM facade over CI Builds
 
-## Support projects with Reference Implementations (GC)
+## Make IGs more testable with Reference Implementations (GC)
 
-* P0: fhir-candle supports SMART authorization
-* P1: RI for vitals-write for Connectathon (Nov 15)
-* P2: Subscription RI include client-focused page
+* Create an RI for vitals-write for the virtual connectathon (Nov 15)
+    * Non-goal: Full SMART on FHIR reference implementation
+    * P1 feature set: 
+        * Complete the SMART standalone patient launch flow
+            * Client app registration is implicit
+            * Symmetric and Asymmetric authn both work, but no auth is actually checked
+            * Works with SMARTv1 clients, using `patient/Observation.*` (or `.write`)
+            * Works with SMARTv2, using IG-specified `patient/Observation.crs` (or further restricted per https://hackmd.io/@argonaut/SkGWnfQdn#Scopes-for-patient-facing-apps)
+                * OK if we don't validate PKCE
+            * Instead of users, login allows for selecting a patient or practitioner
+        * Restrict read and write based on scopes
+        * Host at: `vitals-server.ri.argo.run`
+        * Include directions for local run (GH readme)
+        * Allow apps to test error conditions like "can only write one blood pressure per ___ time per patient"
+        * Walkthrough tour
+            * Client perspective
+            * Include creating a new patient ("clone" a sample patient)
+    * P3 feature set: 
+        * Include 'practitioner view' into written vitals
+        * Check auth tokens
+        * Additions to SMART access
+            * Works with SMARTv2 clients, using `patient/Observation.u` (or further restricted per https://hackmd.io/@argonaut/SkGWnfQdn#Scopes-for-patient-facing-apps)
+    * P5 feature set:
+        * Allow/deny the requested scopes
+        * Explicit client app registration
+        * Internal Provenance generation
+        * External Provenance handling
+
+* P2: Subscription RI include client-oriented page to allow testing of other Subscription servers.
 
 ## FHIR Subscriptions meet use case needs and are implementable (GC)
 
@@ -166,26 +199,29 @@
 * P0: Design mechanism for sending authorization information with subscription notifications
 * P0: Add support for sending authorization information with subscription notifications
   * P0: Backport for FHIR R4/R4B
-  * P3: FHIR R5
+  * P5: FHIR R5
   * P1: FHIR R6
 * P0: Design mechanism for sending 'pull' (query/request) information with notifications
   * P0: Backport for FHIR R4/R4B
-  * P3: FHIR R5
+  * P5: FHIR R5
   * P1: FHIR R6
 
-## Improve and maintain FHIR Specifications
+## FHIR Specifications Improve Across Releases
 
 ### Subscriptions Framework
 * P0: Apply all outstanding TC tickets to backport IG
-* P0: Add known 'quality of life' requests
+* P0: Add mechanism for tagging notification events by FHIR interaction/event 
+    * e.g., differentiate between a create and update in a topic that allows both
+    * e.g., different events in a topic with more than one event trigger
+    * e.g., define a topic with several triggers on the same resource and be able to tell them apart
+* P0: Define operation to *resend*/*replay* notifications (instead of just accessing them)
 * P0: Ballot Subscriptions backport IG in January cycle
 * P2: Ballot (for comment) FHIR R6 changes in January cycle
-* P3: Determine path for maintaining feature parity in FHIR R5
+* P5: Determine path for maintaining feature parity in FHIR R5
 
 ### Prepare FHIR R6 content for comment ballot
+* P0: Ensure submitted search and http page tickets are voted on.
 * P0: Apply all search page tickets approved on or before November 27
-* P0: Expand examples for 'range' searches
 * P0: Apply all http page tickets approved on or before November 27
 * P0: Ensure new 'delete' functionality is documented
   * P0: Reach out to at least 4 implementers to review draft content before content freeze (December 4)
-
