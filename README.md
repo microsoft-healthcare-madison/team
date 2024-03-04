@@ -23,18 +23,19 @@ Our mission is to enable / improve digital healthcare. We are a public-facing te
 	* Review IGs
 	* Reference Implementation (unofficial)
 * DaVinci
-    * Review of IGs 
+  * Review of IGs 
 	* Reference implementations (unofficial)
 * FHIR at Scale Taskforce (FAST)
-    * Review of IGs
-    * Implementation testing
+  * Review of IGs
+  * Implementation testing
 * Gravity Project
-    * Review of IGs
-    * Support tooling (SDOH / Questionnaire)
+  * Review of IGs
+  * Support tooling (SDOH / Questionnaire)
 * Helios
-    * Allied work (e.g., USCDI, US Core)
+  * Allied work (e.g., USCDI, US Core)
 * Vulcan
-    * Member
+  * Advisory Board Member
+  * Project participation
 
 
 # Current Specification Work / Contributions
@@ -55,7 +56,7 @@ Our mission is to enable / improve digital healthcare. We are a public-facing te
   * [FHIR Cross-Version Extensions](https://github.com/HL7/fhir-cross-version)
   * [FHIR Test Cases](https://github.com/FHIR/fhir-test-cases)
 
-# Current OSS Project Work / Contributions
+# Selected OSS Project Work / Contributions
 
 * [DefinitelyTyped FHIR](https://www.npmjs.com/package/@types/fhir)
   * TypeScript FHIR definitions hosted in DT
@@ -68,11 +69,16 @@ Our mission is to enable / improve digital healthcare. We are a public-facing te
   * Library and related utilities to create source code from  FHIR specifications.
 * [FHIR JS](https://github.com/smart-on-fhir/client-js)
   * JavaScript client for FHIR
+* [FHIR SDC Helpers](https://github.com/brianpos/fhir-sdc-helpers)
+  * Unofficial set of helper functions to ease working with the FHIR R4 Structured Data Capture Extensions in Javascript and TypeScript.
 * [FHIR WebApi Facade](https://github.com/brianpos/fhir-net-web-api)
   * An unofficial WebAPI controller implementation for exposing a HL7 FHIR on the Microsoft .NET (dotnet) platform.
+  * [Questionnaire Validation Tools](https://github.com/brianpos/fhir-net-web-api/tree/develop/src/Hl7.Fhir.StructuredDataCapture)
 * [FHIRPath Lab](https://github.com/brianpos/fhirpath-lab)
   * Open source tool to simplify testing fhirpath expressions against the various open source fhirpath engines available.
   * [Hosted](https://fhirpath-lab.azurewebsites.net/)
+* [FHIRPath Validator](https://github.com/brianpos/Hl7.Fhir.FhirPath.Validator)
+  * Static analysis tool that can help ensure that a valid fhirpath expression is valid for the context in which it is to be used.
 * [Firely Net SDK](https://github.com/FirelyTeam/firely-net-sdk)
   * .NET SDK for FHIR
 * [SMART App Launcher](https://github.com/smart-on-fhir/smart-launcher)
