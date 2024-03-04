@@ -3,14 +3,13 @@ Docs about our team, working on Healthcare Standards and Interoperability.
 
 Our mission is to enable / improve digital healthcare. We are a public-facing team, focused on standards and interoperability.  We contribute to specifications (e.g., [FHIR](http://hl7.org/fhir)) and Open Source Software (below).
 
-# FHIR Governance Roles
-* FHIR Board Member
-* Technical Steering Committee Member
+# Standards Governance Roles
+* HL7 Board Member
+* HL7 Technical Steering Committee Member
 * FHIR Management Group Members
-
-# FHIR WG Roles
-* FHIR Infrastructure co-chairs
-* Patient Administration co-chair
+* FHIR Work Groups 
+  * FHIR Infrastructure co-chairs
+  * Patient Administration co-chair
 
 # Selected Accelerator Involvement
 * Argonaut Project
