@@ -3,16 +3,16 @@ Docs about our team, working on Healthcare Standards and Interoperability.
 
 Our mission is to enable / improve digital healthcare. We are a public-facing team, focused on standards and interoperability.  We contribute to specifications (e.g., [FHIR](http://hl7.org/fhir)) and Open Source Software (below).
 
-# Current FHIR Governance Roles
+# FHIR Governance Roles
 * FHIR Board Member
 * Technical Steering Committee Member
 * FHIR Management Group Members
 
-# Current FHIR WG Roles
+# FHIR WG Roles
 * FHIR Infrastructure co-chairs
 * Patient Administration co-chair
 
-# Current Accelerator Involvement
+# Selected Accelerator Involvement
 * Argonaut Project
   * Steering Committee Member
 	* Subject matter expert and project management contributions
@@ -38,7 +38,7 @@ Our mission is to enable / improve digital healthcare. We are a public-facing te
   * Project participation
 
 
-# Current Specification Work / Contributions
+# Selected Specification Work / Contributions
 * Implementation Guides
   * [SMART App Launch](https://github.com/HL7/smart-app-launch)
     * [User-access Brands and Endpoints](https://build.fhir.org/ig/HL7/smart-app-launch/brands.html)
@@ -57,7 +57,6 @@ Our mission is to enable / improve digital healthcare. We are a public-facing te
   * [FHIR Test Cases](https://github.com/FHIR/fhir-test-cases)
 
 # Selected OSS Project Work / Contributions
-
 * [DefinitelyTyped FHIR](https://www.npmjs.com/package/@types/fhir)
   * TypeScript FHIR definitions hosted in DT
 * [FHIR Candle](https://github.com/GinoCanessa/fhir-candle)
@@ -93,7 +92,6 @@ Our mission is to enable / improve digital healthcare. We are a public-facing te
   * [Brand Browser](https://github.com/argonautproject/brand-browser) - [Hosted](https://brand-browser.argo.run/config)
 
 # Educational Content
-
 * Josh Mandel's [YouTube Channel](https://www.youtube.com/c/JoshMandelMD/videos)
   * [A Guided Walk Through FHIR](https://www.youtube.com/playlist?list=PLMc5uWlrR04diE7Pl7An4d-vnsLJDTC-M)
   * [Discussions on interop](https://www.youtube.com/playlist?list=PLMc5uWlrR04c4IgByY4ak09qv7F1oxzGL)
