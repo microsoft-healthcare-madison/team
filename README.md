@@ -3,27 +3,88 @@ Docs about our team, working on Healthcare Standards and Interoperability.
 
 Our mission is to enable / improve digital healthcare. We are a public-facing team, focused on standards and interoperability.  We contribute to specifications (e.g., [FHIR](http://hl7.org/fhir)) and Open Source Software (below).
 
-# Current Specification Work / Contributions
+# Current FHIR Governance Roles
+* FHIR Board Member
+* Technical Steering Committee Member
+* FHIR Management Group Members
 
-* [SMART App Launch v2](https://github.com/HL7/smart-app-launch)
-* [SMART Health Cards](https://spec.smarthealth.cards/)
-* [SMART Web Messaging](https://github.com/HL7/smart-web-messaging)
-* [Subscriptions Backport IG](https://github.com/HL7/fhir-subscription-backport-ig)
+# Current FHIR WG Roles
+* FHIR Infrastructure co-chairs
+* Patient Administration co-chair
+
+# Current Accelerator Involvement
+* Argonaut Project
+  * Steering Committee Member
+	* Subject matter expert and project management contributions
+	* IG Authoring
+	* Reference implementations
+* CARIN Alliance
+    * Board Member
+	* Review IGs
+	* Reference Implementation (unofficial)
+* DaVinci
+    * Review of IGs 
+	* Reference implementations (unofficial)
+* FHIR at Scale Taskforce (FAST)
+    * Review of IGs
+    * Implementation testing
+* Gravity Project
+    * Review of IGs
+    * Support tooling (SDOH / Questionnaire)
+* Helios
+    * Allied work (e.g., USCDI, US Core)
+* Vulcan
+    * Member
+
+
+# Current Specification Work / Contributions
+* Implementation Guides
+  * [SMART App Launch](https://github.com/HL7/smart-app-launch)
+    * [User-access Brands and Endpoints](https://build.fhir.org/ig/HL7/smart-app-launch/brands.html)
+  * [SMART Health Cards](https://spec.smarthealth.cards/)
+  * [SMART Health Links](https://docs.smarthealthit.org/smart-health-links/spec/)
+  * [Subscriptions Backport IG](https://www.hl7.org/fhir/uv/subscriptions-backport/)
+  * [Bulk Data](https://www.hl7.org/fhir/uv/bulkdata/)
+  * FHIR Write (in development, per category)
+    * e.g., [FHIR Write for Vital Sign Observations](https://build.fhir.org/ig/HL7/US-Core/fhir-write.html)
+  * [Patient Request for Corrections](https://build.fhir.org/ig/HL7/fhir-patient-correction/)
+
 * FHIR Core Specification
-  * [FHIR R4B](https://github.com/hl7/fhir/tree/R4B)
-  * [FHIR R5](https://github.com/hl7/fhir/)
+  * [FHIR R6](https://build.fhir.org/)
+  * [FHIR Extensions Pack](https://build.fhir.org/ig/HL7/fhir-extensions/)
+  * [FHIR Cross-Version Extensions](https://github.com/HL7/fhir-cross-version)
+  * [FHIR Test Cases](https://github.com/FHIR/fhir-test-cases)
 
 # Current OSS Project Work / Contributions
 
+* [DefinitelyTyped FHIR](https://www.npmjs.com/package/@types/fhir)
+  * TypeScript FHIR definitions hosted in DT
+* [FHIR Candle](https://github.com/GinoCanessa/fhir-candle)
+  * Reference-implementation base FHIR server
+  * Hosted - [Subscriptions RI](https://subscriptions.argo.run/)
+  * Hosted - [Vitals Write Server RI](https://vitals-server.ri.argo.run/)
+  * Hosted (WIP) - [CDex Server RI](https://cdex-server.ri.argo.run/)
 * [FHIR Code Generator](https://github.com/microsoft/fhir-codegen)
+  * Library and related utilities to create source code from  FHIR specifications.
 * [FHIR JS](https://github.com/smart-on-fhir/client-js)
-* [SMART App Launcher](https://github.com/smart-on-fhir/smart-launcher)
-* [SMART Health Cards Dev Tools](https://github.com/smart-on-fhir/health-cards-dev-tools)
+  * JavaScript client for FHIR
 * [FHIR WebApi Facade](https://github.com/brianpos/fhir-net-web-api)
-* Subscriptions Reference Implementations:
-  * [Proxy Server](https://github.com/microsoft-healthcare-madison/argonaut-subscription-server-proxy)
-  * [Client UI](https://github.com/microsoft-healthcare-madison/argonaut-subscription-client-ui)
-  * [REST Client Forwarder](https://github.com/microsoft-healthcare-madison/argonaut-subscription-client)
+  * An unofficial WebAPI controller implementation for exposing a HL7 FHIR on the Microsoft .NET (dotnet) platform.
+* [FHIRPath Lab](https://github.com/brianpos/fhirpath-lab)
+  * Open source tool to simplify testing fhirpath expressions against the various open source fhirpath engines available.
+  * [Hosted](https://fhirpath-lab.azurewebsites.net/)
+* [Firely Net SDK](https://github.com/FirelyTeam/firely-net-sdk)
+  * .NET SDK for FHIR
+* [SMART App Launcher](https://github.com/smart-on-fhir/smart-launcher)
+  * Launcher for SMART on FHIR applications
+  * [Hosted](https://launch.smarthealthit.org/)
+* [SMART Health Cards Dev Tools](https://github.com/smart-on-fhir/health-cards-dev-tools)
+  * Developer tools for validating SMART Health Cards
+* [Upload FIG](https://github.com/brianpos/UploadFIG)
+  * Tool to deploy a FHIR Implementation Guide to a FHIR Server
+* User Brands Reference
+  * [Brand Editor](https://github.com/argonautproject/patient-access-brands-editor/) - [Hosted](https://brand-editor.argo.run/)
+  * [Brand Browser](https://github.com/argonautproject/brand-browser) - [Hosted](https://brand-browser.argo.run/config)
 
 # Educational Content
 
