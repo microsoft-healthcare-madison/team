@@ -1,5 +1,5 @@
 
-# Healthcare Interoperability OKRs (October 2024 - January 2025)
+# OKRs for October 2024 - January 2025
 
 ## Continuous Glucose Monitoring (CGM) 2024 Project
 
